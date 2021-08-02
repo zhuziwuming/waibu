@@ -5,7 +5,7 @@
     {
       "id": 0,
       "name": "零度资源",
-      "api": "https://zy.kuluni.cn/api.php/provide/vod/at/xml",
+      "api": "https://m3u8.apibdzy.com/api.php/provide/vod/?ac=list",
       "click": true,
       "searchFilter": false
     }
