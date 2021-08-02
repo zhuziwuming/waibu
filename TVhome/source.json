@@ -4,7 +4,7 @@
   "vodApi": [
     {
       "id": 0,
-      "name": "零度资源",
+      "name": "百度资源",
       "api": "https://m3u8.apibdzy.com/api.php/provide/vod/?ac=list",
       "click": true,
       "searchFilter": false
