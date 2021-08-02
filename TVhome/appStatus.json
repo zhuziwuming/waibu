@@ -1,6 +1,6 @@
 {
   "open": true,
-  "newOpen": false,
+  "newOpen": true,
   "appOpen":true,
   "versionCode": 126,
   "appHint":"联络不上服务器，请检查网络。",
