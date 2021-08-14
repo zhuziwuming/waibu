@@ -89,7 +89,7 @@
       "name": "乐多资源",
       "type": 0,
       "api": "http://www.leduozy.com/inc/api.php",
-	  "playurl": "http://api.leduotv.com/wp-api/ifr.php?isDp=1&vid="
+	  "playurl": "http://api.leduotv.com/wp-api/ifr.php?isDp=1&vid=",
       "categories": [
         "综艺",
         "动作片",
