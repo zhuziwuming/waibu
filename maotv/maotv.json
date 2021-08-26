@@ -828,14 +828,10 @@
       "url": "https://vip.parwix.com:4433/player/?url="
     },
     {
-      "name": "奇米解析",
-      "url": "https://qimihe.com/?url="
-    },
-	{
-      "name": "B站解析3",
+      "name": "B站解析2",
       "url": "https://vip.parwix.com:4433/player/analysis.php?v="
     },
-	{
+    {
       "name": "M3U8",
       "url": "https://jx.m3u8.tv/jiexi/?url="
     },
@@ -844,16 +840,24 @@
       "url": "https://jx.xmflv.com/?url="
     },
     {
+      "name": "月亮",
+      "url": "https://api.yueliangjx.com/?url="
+    },
+    {
+      "name": "乐多资源",
+      "url": "https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid="
+    },
+    {
+      "name": "奇米解析",
+      "url": "https://qimihe.com/?url="
+    },	  
+    {
       "name": "Ckplayer",
       "url": "https://www.ckplayer.vip/jiexi/?url="
     },
     {
       "name": "BL",
       "url": "https://vip.bljiex.com/?v="
-    },
-    {
-      "name": "乐多资源",
-      "url": "https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid="
     },
     {
       "name": "ccyjjd",
@@ -958,10 +962,6 @@
     {
       "name": "星空",
       "url": "http://60jx.com/?url="
-    },
-    {
-      "name": "月亮",
-      "url": "https://api.yueliangjx.com/?url="
     },
     {
       "name": "0523",
