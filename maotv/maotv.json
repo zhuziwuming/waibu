@@ -1,5 +1,5 @@
 {
-  "spider": "https://github.com/zhuziwuming/waibu/blob/main/maotv/custom_spider.jar",
+  "spider": "https://cdn.jsdelivr.net/gh/zhuziwuming/waibu@main/maotv/custom_spider.jar",
   "sites": [ 
 {
       "key": "蘑菇资源",
