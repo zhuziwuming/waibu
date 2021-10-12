@@ -1,6 +1,6 @@
 {
-  "sites": [ 
-{
+  "sites": [    
+	{
       "key": "蘑菇资源",
       "name": "蘑菇资源",
       "type": 0,
@@ -29,78 +29,6 @@
         "动漫"
       ]
     },
-	{
-    "key": "csp_Aidi",
-    "name": "爱迪(爬虫)",
-    "type": 3,
-    "api": "csp_Aidi",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-    },  
-    {
-    "key": "csp_Enlienli",
-    "name": "嗯哩嗯哩(爬虫)",
-    "type": 3,
-    "api": "csp_Enlienli",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-    },
-{
-  "key": "csp_Auete",
-  "name": "Auete(爬虫)",
-  "type": 3,
-  "api": "csp_Auete",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},
-{
-  "key": "csp_Cokemv",
-  "name": "Cokemv(爬虫)",
-  "type": 3,
-  "api": "csp_Cokemv",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},
-{
-  "key": "csp_Buka",
-  "name": "真不卡(爬虫)",
-  "type": 3,
-  "api": "csp_Buka",
-  "searchable": 0,
-  "quickSearch": 0,
-  "filterable": 1
-},
-{
-  "key": "csp_Ysgc",
-  "name": "影视工厂(爬虫)",
-  "type": 3,
-  "api": "csp_Ysgc",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},
-{
-  "key": "csp_N0ys",
-  "name": "90影视(爬虫)",
-  "type": 3,
-  "api": "csp_N0ys",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 0
-},
-{
-  "key": "csp_Ubo",
-  "name": "U播影视(爬虫)",
-  "type": 3,
-  "api": "csp_Ubo",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},
 	{
       "key": "柚子资源",
       "name": "柚子资源",
@@ -856,38 +784,20 @@
   ],
   "parses": [
     {
-    "name": "Json并发",
-    "type": 2,
-    "url": "Parallel"
-    },
-    {
-    "name": "Json轮询",
-    "type": 2,
-    "url": "Sequence"
-    },
-    {
-      "name": "本地解析",
-      "url": "http://192.168.0.22:8002/btvip/jiexi.php?url="
-    },
-	{
-      "name": "小兰解析",
-      "url": "http://jx.xiaolangyun.com/?url="
-    },
-    {
-      "name": "全民解析",
+      "name": "高速接口",
       "url": "https://jx.quanmingjiexi.com/?url="
     },
     {
       "name": "B站解析1",
       "url": "https://vip.parwix.com:4433/player/?url="
     },
-	{
+    {
       "name": "B站解析2",
-      "url": "https://jx.parwix.com:4433/player/analysis.php?v="
+      "url": "https://www.cuan.la/m3u8.php?url="
     },
 	{
-      "name": "月亮",
-      "url": "https://vip.jianjians.com/vip/?url="
+      "name": "B站解析3",
+      "url": "https://vip.parwix.com:4433/player/analysis.php?v="
     },
 	{
       "name": "M3U8",
@@ -901,17 +811,13 @@
       "name": "Ckplayer",
       "url": "https://www.ckplayer.vip/jiexi/?url="
     },
-	    {
-      "name": "奇米解析",
-      "url": "https://qimihe.com/?url="
+    {
+      "name": "BL",
+      "url": "https://vip.bljiex.com/?v="
     },
     {
       "name": "乐多资源",
       "url": "https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid="
-    },
-	{
-      "name": "BL",
-      "url": "https://vip.bljiex.com/?v="
     },
     {
       "name": "ccyjjd",
@@ -1016,6 +922,10 @@
     {
       "name": "星空",
       "url": "http://60jx.com/?url="
+    },
+    {
+      "name": "月亮",
+      "url": "https://api.yueliangjx.com/?url="
     },
     {
       "name": "0523",
