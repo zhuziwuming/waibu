@@ -1,6 +1,7 @@
 {
-  "sites": [    
-	{
+  "spider": "https://github.com/zhuziwuming/waibu/blob/main/maotv/custom_spider.jar",
+  "sites": [ 
+{
       "key": "蘑菇资源",
       "name": "蘑菇资源",
       "type": 0,
@@ -30,33 +31,77 @@
       ]
     },
 	{
-      "key": "afys_spider",
-      "name": "阿房影视",
-      "type": 2,
-      "api": "Scrawl1",
-      "playUrl": ""
-    },
+    "key": "csp_Aidi",
+    "name": "爱迪(爬虫)",
+    "type": 3,
+    "api": "csp_Aidi",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+    },  
     {
-      "key": "jpys_spider",
-      "name": "极品影视",
-      "type": 2,
-      "api": "Scrawl2",
-      "playUrl": ""
+    "key": "csp_Enlienli",
+    "name": "嗯哩嗯哩(爬虫)",
+    "type": 3,
+    "api": "csp_Enlienli",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
     },
-    {
-      "key": "mgys_spider",
-      "name": "暮光影视",
-      "type": 2,
-      "api": "Scrawl3",
-      "playUrl": ""
-    },
-    {
-      "key": "ysgc_spider",
-      "name": "影视工厂",
-      "type": 2,
-      "api": "Scrawl4",
-      "playUrl": ""
-    },
+{
+  "key": "csp_Auete",
+  "name": "Auete(爬虫)",
+  "type": 3,
+  "api": "csp_Auete",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Cokemv",
+  "name": "Cokemv(爬虫)",
+  "type": 3,
+  "api": "csp_Cokemv",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Buka",
+  "name": "真不卡(爬虫)",
+  "type": 3,
+  "api": "csp_Buka",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_Ysgc",
+  "name": "影视工厂(爬虫)",
+  "type": 3,
+  "api": "csp_Ysgc",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_N0ys",
+  "name": "90影视(爬虫)",
+  "type": 3,
+  "api": "csp_N0ys",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0
+},
+{
+  "key": "csp_Ubo",
+  "name": "U播影视(爬虫)",
+  "type": 3,
+  "api": "csp_Ubo",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
 	{
       "key": "柚子资源",
       "name": "柚子资源",
@@ -813,7 +858,7 @@
   "parses": [
     {
       "name": "本地解析",
-      "url": "http://192.168.1.22:8002/btvip/jiexi.php?url="
+      "url": "http://192.168.0.22:8002/btvip/jiexi.php?url="
     },
 	{
       "name": "小兰解析",
@@ -829,11 +874,11 @@
     },
 	{
       "name": "B站解析2",
-      "url": "https://vip.parwix.com:4433/player/analysis.php?v="
+      "url": "https://jx.parwix.com:4433/player/analysis.php?v="
     },
 	{
       "name": "月亮",
-      "url": "https://api.yueliangjx.com/?url="
+      "url": "https://vip.jianjians.com/vip/?url="
     },
 	{
       "name": "M3U8",
@@ -1231,3 +1276,5 @@
     "cms.qdwght.com"
   ]
 }
+	
+	
