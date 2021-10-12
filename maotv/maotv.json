@@ -856,10 +856,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "本地解析",
-      "url": "http://192.168.0.22:8002/btvip/jiexi.php?url="
-    },
 	{
       "name": "小兰解析",
       "url": "http://jx.xiaolangyun.com/?url="
