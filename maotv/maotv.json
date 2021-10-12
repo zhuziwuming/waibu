@@ -1,4 +1,5 @@
 {
+  "spider": "https://raw.githubusercontent.com/zhuziwuming/waibu/main/maotv/custom_spider.jar",
   "sites": [ 
 {
       "key": "蘑菇资源",
@@ -855,6 +856,20 @@
     }
   ],
   "parses": [
+    {
+    "name": "Json并发",
+    "type": 2,
+    "url": "Parallel"
+    },
+    {
+    "name": "Json轮询",
+    "type": 2,
+    "url": "Sequence"
+    },
+    {
+      "name": "本地解析",
+      "url": "http://192.168.0.22:8002/btvip/jiexi.php?url="
+    },
 	{
       "name": "小兰解析",
       "url": "http://jx.xiaolangyun.com/?url="
