@@ -1680,5 +1680,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://s3.bmp.ovh/imgs/2021/11/f2f074431d70e2e2.png",
-  "spider": "http://192.168.0.22:8002/loading/maotv1208.jar"
+  "spider": "https://gitee.com/Zhuziwuming/maotv/raw/master/maotv1208.jar"
 }
